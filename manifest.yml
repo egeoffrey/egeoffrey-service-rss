@@ -1,0 +1,6 @@
+package: myhouse-service-rss
+revision: 1
+version: development
+git: myhouse-project/myhouse-service-rss
+modules:
+  - service/rss
