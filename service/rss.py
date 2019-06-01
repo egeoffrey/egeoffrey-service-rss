@@ -19,6 +19,7 @@ import feedparser
 from sdk.module.service import Service
 
 import sdk.utils.web
+import sdk.utils.exceptions as exception
 
 class Rss(Service):
     # What to do when initializing
@@ -46,14 +47,12 @@ class Rss(Service):
                 data = self.cache.get(cache_key)
             else:
                 try:
-                    data = json.dumps(sdk.utils.web.get(url))
+                    data = sdk.utils.web.get(url)
                 except Exception,e: 
                     self.log_error("unable to connect to "+csv_file+": "+exception.get(e))
                     return
                 self.cache.add(cache_key, data)
             message.reply()
-            # load the file
-            data = json.loads(data)
             # parse the feed
             feed = feedparser.parse(data)
             result = ""
