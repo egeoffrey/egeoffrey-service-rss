@@ -16,10 +16,10 @@
 import json
 import feedparser
 
-from sdk.module.service import Service
+from sdk.python.module.service import Service
 
-import sdk.utils.web
-import sdk.utils.exceptions as exception
+import sdk.python.utils.web
+import sdk.python.utils.exceptions as exception
 
 class Rss(Service):
     # What to do when initializing
@@ -47,7 +47,7 @@ class Rss(Service):
                 data = self.cache.get(cache_key)
             else:
                 try:
-                    data = sdk.utils.web.get(url)
+                    data = sdk.python.utils.web.get(url)
                 except Exception,e: 
                     self.log_error("unable to connect to "+csv_file+": "+exception.get(e))
                     return
