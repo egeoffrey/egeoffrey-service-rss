@@ -1,6 +1,9 @@
 package: myhouse-service-rss
-revision: 3
+revision: 4
 version: development
-git: myhouse-project/myhouse-service-rss
+github: myhouse-project/myhouse-service-rss
+dockerhub: myhouse-project/myhouse-service-rss
+description: Parse a rss feed
+tags: service rss
 modules:
   - service/rss
