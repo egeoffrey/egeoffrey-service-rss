@@ -2,7 +2,7 @@ package: myhouse-service-rss
 revision: 4
 version: development
 github: myhouse-project/myhouse-service-rss
-dockerhub: myhouse-project/myhouse-service-rss
+dockerhub: myhouseproject/myhouse-service-rss
 description: Parse a rss feed
 tags: service rss
 modules:
