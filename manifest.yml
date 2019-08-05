@@ -2,6 +2,7 @@ branch: development
 description: Parse a RSS feed
 dockerhub: myhouseproject/myhouse-service-rss
 github: myhouse-project/myhouse-service-rss
+icon: rss
 manifest_schema: 2
 modules:
 - service/rss:
@@ -14,6 +15,6 @@ modules:
         placeholder: http://rss.cnn.com/rss/cnn_latest.rss
         required: true
 package: myhouse-service-rss
-revision: 7
+revision: 8
 tags: service rss
 version: 1.0
