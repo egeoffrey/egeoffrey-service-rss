@@ -1,7 +1,7 @@
 branch: development
 description: Parse a RSS feed
-dockerhub: myhouseproject/myhouse-service-rss
-github: myhouse-project/myhouse-service-rss
+dockerhub: egeoffrey/egeoffrey-service-rss
+github: egeoffrey/egeoffrey-service-rss
 icon: rss
 manifest_schema: 2
 modules:
@@ -14,7 +14,7 @@ modules:
         name: url
         placeholder: http://rss.cnn.com/rss/cnn_latest.rss
         required: true
-package: myhouse-service-rss
-revision: 8
+package: egeoffrey-service-rss
+revision: 9
 tags: service rss
 version: 1.0
