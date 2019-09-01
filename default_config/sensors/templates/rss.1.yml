@@ -5,7 +5,7 @@ retain: single_value
 service:
   configuration:
     url: http://rss.cnn.com/rss/cnn_latest.rss
-  mode: active
+  mode: pull
   name: rss
   schedule:
     minutes: 60
