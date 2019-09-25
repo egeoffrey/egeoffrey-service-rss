@@ -59,4 +59,4 @@ service rss
 
 ## Version
 
-The version of this egeoffrey-service-rss is 1.0-13 on the master branch.
+The version of this egeoffrey-service-rss is 1.0-14 on the master branch.
