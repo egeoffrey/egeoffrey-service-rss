@@ -40,7 +40,7 @@ If you are a user willing to contribute to somebody's else package, submit your 
 
 Building is required only if you are the author of the package. To build a Docker image and automatically push it to [Docker Hub](https://hub.docker.com/r/egeoffrey/egeoffrey-service-rss), run the following command from within this package's directory:
 ```
-egeoffrey-cli build egeoffrey-service-rss <amd64|arm>
+egeoffrey-cli build egeoffrey-service-rss
 ```
 
 ## Uninstall
@@ -59,4 +59,4 @@ service rss
 
 ## Version
 
-The version of this egeoffrey-service-rss is 1.0-14 on the master branch.
+The version of this egeoffrey-service-rss is 1.0-15 on the master branch.
